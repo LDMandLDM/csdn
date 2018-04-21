@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="minimal-ui, user-scalable=no, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="./css/csdn个人博客中心.css" type="text/css">
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/vue.js"></script>
+	<title>Document</title>
+</head>
+<body>
+    <div id="#app">
+    	<div class="box">
+    		<div class="csdn-bar">
+    			<div class="icon">
+    				<ul class="clearfix">
+    					<li></li>
+    					<li></li>
+    					<li></li>
+    				</ul>
+    			</div>
+    			<div class="csdn-logo">
+    				<img src="./images/logoimg.png" alt="">
+    			</div>
+    			<div class="denglu-div">
+    					<img class="denglu-logo" src="./images/denglu.png" alt="">
+    					<img class="denglu-img" src="./images/2_ldm1130.jpg" alt="">
+    			</div>
+    		</div>
+    		<div class="background"></div>
+    		<div class="user-div">
+    			<div class="user-img">
+    				<img src="./images/2_ldm1130.jpg" alt="">
+    			</div>
+    			<div class="user-info">
+    				<h3>lidongmei</h3>
+    				<p>
+    					<span class="follow">关注</span>
+    					<span class="follow-num">0</span>
+    					<span class="fans">粉丝</span>
+    					<span class="fans-num">0</span>
+    				</p>
+    			</div>
+    		</div>
+    		<div class="background1"></div>
+    		<a href="./CSDN写博客.html" class="my-blog" @click="clickMyBlog">
+    			<p>
+    				<span class="my-blog-left">我的博客</span>
+    				<span class="my-blog-right">></span>
+    			</p>
+    		</a>
+    		<a href="./CSDN收藏列表.html" class="my-collection" @click="clickMyCollection">
+    			<p>
+    				<span class="my-colle-left">我的收藏</span>
+    				<span class="my-colle-right">></span>
+    			</p>
+    		</a>
+    		<div class="background">
+    			<div class="tuichu">
+    				<span>退出登录</span>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	<script src="./js/csdn个人博客中心.js" type="text/javascript"></script>
+</body>
+</html>

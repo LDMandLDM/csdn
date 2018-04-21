@@ -1,0 +1,141 @@
+body,html,ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	margin:0 auto;
+}
+.csdn-bar{
+    width: 100%;
+    height: 3.3rem;
+}
+.clearfix::after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.icon{
+	width: 4.5%;
+	margin-left:5%;
+	margin-top:1.2rem;
+	float: left;
+}
+.icon ul li{
+	height: 0.12rem;
+	background-color: #333;
+	margin: 0.3rem 0;
+}
+.csdn-logo{
+	float: left;
+	margin-top:1.2rem;
+	margin-left:30%;
+	text-align: center;
+}
+.denglu-div{
+	width: 20%;
+	float: right;
+	position: relative;
+}
+.denglu-div a{
+	display: inline-block;
+}
+.denglu-logo{
+	height: 1.1rem;
+	position: absolute;
+	top:1.5rem;
+	left: 5%;
+}
+.denglu{
+	margin-top:1.2rem;
+	padding-left: 30%;
+	font-size: 1rem;
+	color: #C92027;
+}
+.csdn-list{
+	height: 2.5rem;
+	width: 100%;
+	background-color: #eaebef;
+}
+.csdn-list ul{
+	overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.csdn-list ul li{
+	display: inline-block;
+	margin:0.6rem 0 0.6rem 4.5%;
+}
+.csdn-list ul li a{
+	color: #4f4f4f;
+	font-size: 0.9rem;
+}
+.carousel{
+	width: 100%;
+	height: 8.5rem;
+}
+.carousel img{
+	width: 100%;
+	height: 8.5rem;
+}
+.tooltip ul li{
+	border-bottom: 1px solid #d8d8d8;
+}
+.tooltip ul li p{
+	width: 100%;
+}
+.tooltip-title{
+	color:#2F2F2E;
+	font-weight: bold;
+	font-size: 1.1rem;
+	display:inline-block;
+	width: 90%;
+	margin-left:5%;
+	padding:1.2rem 0 0.8rem 0;
+}
+.tooltip ul li a{
+	display: inline-block;
+	width:100%;
+}
+.first-type{
+	display: inline-block;
+	font-size: 0.8rem;
+	color: #349edf;
+	margin-left:5%;
+}
+.seconed-type{
+	display:inline-block;
+	font-size: 0.7rem;
+	color: #4f4f4f;
+	margin-left:2%;
+}
+.read-number{
+	display: inline-block;
+	font-size: 0.7rem ;
+	color: #000000;
+	margin-left: 2%;
+}
+.time{
+	display: inline-block;
+	font-size: 0.7rem ;
+	color: #999;
+	margin-left: 2%;
+}
+.tooltip-info{
+	padding-bottom: 0.8rem;
+}
+.cancel{
+	color: #ccc;
+	float: right;
+	display: inline-block;
+	margin-right: 3%;
+}
+/*.release{
+	float: left;
+}*/

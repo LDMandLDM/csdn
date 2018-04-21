@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/csdn写博客.css" type="text/css">
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./ueditor/ueditor.config.js"></script>
+	<script type="text/javascript" src="./ueditor/ueditor.all.min.js"></script>
+	<script type="text/javascript" src="./ueditor/ueditor.parse.min.js"></script>
+	<script src="./js/vue.js"></script>
+	<title>Document</title>
+</head>
+<body>
+    <div id="app">
+    	<div class="box">
+    		<div class="navigation">
+    			<div class="logo-img">
+    				<img src="./images/logoimg.png" alt="">
+    				<span>创作中心</span>
+    			</div>
+    			<div class="write-blogs">
+    				<a href="">写博客</a>
+    			</div>
+    		</div>
+    		<div class="background">
+    			<div class="userinfo">
+    				<div class="administration">
+    					<a href="">文章管理</a>
+    				</div>
+    				<div class="write-content">
+    					<!-- <input class="title-div" type="text" placeholder="请输入文章标题"> -->
+    					<input class="title-div" type="text" name="title" v-model="my_title" placeholder="请输入文章标题">
+    					<script id="container" name="content" type="text/plain"></script>
+    					<p class="classification">
+    					    <span>博客分类：</span>
+    						<select v-model="classify_id">
+    							<option value="5" selected="selected">日记</option>
+    							<option value="4">物联网</option>
+    						</select>
+    					</p>
+    					<button class="push-button" @click="release">发布博客</button>
+                        <button class="edit-button" @click="edit">编辑博客</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	<script src="./js/csdn写博客.js" type="text/javascript"></script>
+</body>
+</html>

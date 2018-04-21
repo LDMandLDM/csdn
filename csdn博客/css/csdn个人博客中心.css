@@ -1,0 +1,157 @@
+body,html,ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	margin:0 auto;
+}
+.csdn-bar{
+    width: 100%;
+    height: 3.3rem;
+    box-shadow: 0 0.2rem 0.4rem 0 rgba(0,0,0,0.05);
+    position: fixed;
+    top:0;
+    background-color: #fff;
+}
+.clearfix::after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.icon{
+	width: 4.5%;
+	margin-left:5%;
+	margin-top:1.2rem;
+	float: left;
+}
+.icon ul li{
+	height: 0.12rem;
+	background-color: #333;
+	margin: 0.3rem 0;
+}
+.csdn-logo{
+	float: left;
+	margin-top:1.2rem;
+	margin-left:30%;
+	text-align: center;
+}
+.denglu-div{
+	width: 20%;
+	float: right;
+}
+.denglu-logo{
+	height: 1.1rem;
+	margin-top:1rem;
+	margin-left: 20%;
+}
+.denglu-img{
+    height: 1.1rem;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+.background{
+	background-color:#f7f8f9;
+	height: 6rem;
+	width: 100%;
+}
+.user-div{
+	width: 100%;
+	height: 7rem;
+}
+.user-img{
+	width: 20%;
+	float: left;
+	border:1px solid #f7f8f9;
+	border-radius: 50%;
+	margin-top:1rem;
+	margin-left: 5%
+}
+.user-img img{
+    height: 5rem;
+	border-radius: 50%;
+	margin-top:0.2rem; 
+	margin-left: 3%;
+}
+.user-info{
+	width: 74%;
+	float: left;
+}
+.user-info h3{
+	font-size: 1.4rem;
+	margin-left: 8%;
+}
+.user-info span{
+	display: inline-block;
+}
+.follow{
+	margin-left: 8%;
+	color: #9e9e9e;
+	font-size: 1rem;
+}
+.follow-num{
+	color:#6ab3df;
+	font-size: 1rem;
+}
+.fans{
+	margin-left: 5%;
+	font-size: 1rem;
+	color: #9e9e9e;
+}
+.fans-num{
+	color:#6ab3df;
+	font-size: 1rem;
+}
+.background1{
+	height: 2rem;
+	background-color:#f7f8f9; 
+}
+.my-blog{
+	border-top:1px solid #ddd;
+	height: 4rem;
+	display: block;
+}
+.my-blog p{
+	margin-top:1rem; 
+}
+.my-blog span{
+	color: #4f4f4f;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+.my-collection{
+	border-top:1px solid #ddd;
+	height: 4rem;
+	display: block;
+}
+.my-collection p{
+	margin-top:1rem; 
+}
+.my-collection span{
+	color: #4f4f4f;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+.my-blog-left,.my-colle-left{
+	margin-left: 5%
+}
+.my-blog-right,.my-colle-right{
+	float: right;
+	margin-right:5%;
+}
+.tuichu span{
+	display: inline-block;
+	padding: 0.8rem 20%;
+	background-color: #f44444;
+	color: #fff;
+	margin-top: 2rem;
+	margin-left: 20%;
+	text-align: center;
+	border-radius: 0.5rem;
+}

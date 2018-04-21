@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/vue.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div id="app">
+		<div class="box">
+			<ul class="clearfix">
+				<li v-for="item in my_blog_lists">
+				    <span>{{item.title}}</span>
+				    <span>{{item.data}}</span>
+				    <span>{{item.read_num}}</span>
+				    <span>{{item.classify_name}}</span>
+				    <button @click="deleteBlog(item)">删除</button>
+				    <button @click="editBlog(item)">编辑</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="./js/csdn个人日记列表.js" type="text/javascript"></script>
+</body>
+</html>

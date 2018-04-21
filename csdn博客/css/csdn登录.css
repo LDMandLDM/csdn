@@ -1,0 +1,75 @@
+html,body,ul,li,p,span,h3{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.box{
+	margin:0 auto;
+	width: 100%;
+	height: auto;
+}
+.denglu-div{
+	position: relative;
+	top:5rem;
+	margin:0 auto;
+	width: 72%;
+	height: 25rem;
+	border:1px solid #d8d8d8;
+}
+.denglu-title{
+	color: #4d5e73;
+	font-weight: 400;
+	margin-top:2rem;
+	margin-left:8%;
+}
+.user-name,.password{
+	display: block;
+	height: 2rem;
+	padding: 0.4rem 0 0.4rem 5%;
+	font-size: 0.9rem;
+	margin-left:8%;
+	border:1px solid #d5dce5;
+	width: 80%;
+}
+.user-name{
+	margin-top:1.5rem;
+}
+.password{
+	margin-top:1.2rem;
+}
+.denglu-button{
+	display: block;
+	border:1px solid #c90000;
+    width: 85%;
+    background-color: #c90a16;
+    margin:2.8rem 0 1.5rem 8%;
+    box-shadow:0 0 0.3rem #fff inset ;
+    /*color:#fff;*/
+}
+.denglu-button span{
+	color: #fff;
+	font-size: 1.1rem;
+	display:block;
+	text-align: center;
+	padding: 0.7rem 0;
+}
+.register{
+	border-top:1px solid #d5dce5;
+}
+.register span{
+	color: #666;
+	font-size: 0.8rem;
+}
+.register a{
+	color: #428bca;
+	font-size: 0.8rem;
+}
+.register p{
+	margin-top:1rem;
+	padding-left:8%;
+}
