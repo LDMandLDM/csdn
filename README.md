@@ -380,6 +380,7 @@ classify_id|是  |int |分类id|
 
 **参数：**  
 
+|参数名|必选|类型|说明|
 |:----    |:---|:----- |-----   |
 |user_id |是  |int |当前登陆用户id|
 |blog_id |是  |int |删除blog的id|
